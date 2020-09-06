@@ -19,9 +19,13 @@ University provided dataset containing videos of 3 subjects moving the tongue to
 ## Approach:
 Two approaches were tried:
 
-1.Optical flow method:
+1.Optical flow method: 
+Morphological operations did not isolate the tongue tip effectively inorder to track the tip. In most cases other parts of the lips intefered with tracking. Optical flow provided with the best possible means to detect tongue tip due to movement and thereby carry out tracking
   
-2.Contrast segmentation method ( When markers were used to annotate the tip of the tongue )
+2.Contrast segmentation method ( When markers were used to annotate the tip of the tongue ):
+Since markers were placed at the tip of the tongue, It was much easier to carrry out contrast based isolation of  the tongue tip and hence provided better tracking results.
+
+## Results:
  
  
 
